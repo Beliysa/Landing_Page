@@ -1,0 +1,12 @@
+* {
+    font-family: 'Roboto';
+}
+
+.header-top-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-top-right {
+    display: flex;
+    gap:16px;
+}
