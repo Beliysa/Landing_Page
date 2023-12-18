@@ -1,12 +1,79 @@
 * {
     font-family: 'Roboto';
+    margin:0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+.main-page {
+    width: 900px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header-top-container {
     display: flex;
     justify-content: space-between;
+    padding: 32px;
+    margin-bottom: 50px;
 }
+
 .header-top-right {
     display: flex;
     gap:16px;
+}
+
+.page-first-section {
+    display: flex;
+    gap:20px;
+    padding: 32px;
+    justify-content: space-between;
+
+    
+}
+.page-first-section-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 30px;
+}
+.second-section-header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.second-section-images {
+    display: flex;
+    padding: 32px;
+    gap: 20px;
+}
+.page-third-section {
+    padding:32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-fourth-section {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding:32px;
+}
+.fourth-section-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding:32px;
+    
 }
