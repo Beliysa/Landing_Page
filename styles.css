@@ -13,6 +13,12 @@ button{
     height:25px;
     width: 100px;
 }
+.border-image{
+    border: 3px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 12px;
+}
 
 .color-first{
     background-color: #1F2937;
@@ -80,6 +86,7 @@ button{
 .second-section-images {
     display: flex;
     gap: 12px;
+    justify-content: center;
 }
 .images {
     display:flex;
