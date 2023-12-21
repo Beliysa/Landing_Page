@@ -4,14 +4,13 @@
     padding: 0px;
 }
 button{
-    padding:4px 20px;
+    padding:6px 30px;
     background-color: #3882F6;
     color: white;
     font-weight: 500;
     border: none;
     border-radius: 5px;
-    height:25px;
-    width: 100px;
+    font-size: 16px;
 }
 .border-image{
     border: 3px;
@@ -31,7 +30,7 @@ button{
     justify-content: space-between;
     padding: 32px;
     color: white;
-    width: 800px;
+    width: 1000px;
 }
 
 .header-top-right {
@@ -46,7 +45,7 @@ button{
     justify-content: space-between;
     background-color: #1F2937;
     color: white;
-    width: 800px;
+    width: 1000px;
 
 }
 .page-first-section-left {
@@ -72,13 +71,14 @@ button{
     justify-content: center;
 }
 .page-second-section {
-    width: 800px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 48px;
 }
 .second-section-header {
-    padding: 40px;
+    padding: 20px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -94,12 +94,30 @@ button{
     flex-shrink: 0;
     flex-grow:0 ;
     flex-basis: 0;
+    align-items: center;
+    gap:10px;
+}
+.color-three{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 .page-third-section {
-    padding:32px;
+    padding:60px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 800px;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 250;
+    font-style: italic;
+}
+.person-quoted {
+    align-self: flex-end;
+    padding: 5px;
+    font-weight: bold;
 }
 .page-fourth-section {
     display: flex;
