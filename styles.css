@@ -21,7 +21,9 @@ button{
     border-style: solid;
     border-radius: 12px;
 }
-
+.first-img {
+    border-radius: 10px;
+}
 .color-first{
     background-color: #1F2937;
     display: flex;
@@ -38,7 +40,7 @@ button{
 
 .header-top-right {
     display: flex;
-    gap:16px;
+    gap:30px;
 }
 
 .page-first-section {
@@ -57,6 +59,7 @@ button{
     flex-wrap: wrap;
     width: 500px;
     gap: 30px;
+    justify-content: space-between;
 }
 .hero-text {
     font-size: 48px;
@@ -122,6 +125,11 @@ button{
     padding: 5px;
     font-weight: bold;
 }
+.joke {
+    align-self: flex-end;
+    font-size: small;
+    margin-top: 15px;
+}
 .color-four {
     display: flex;
     justify-content: center;
@@ -131,9 +139,11 @@ button{
     justify-content: space-around;
     gap:20px;
     padding:32px;
+    margin:70px 40px;
     background-color:#3882F6;
     width: 900px;
     border-radius: 5px;
+    align-items: center;
 }
 .fourth-section-left {
     display: flex;
@@ -154,9 +164,17 @@ button{
     color:white;
     font-weight: 300;
 }
+.color-five {
+    background-color: #1F2937;
+    color: white;
+    font-size: small;
+    
+}
+
 .footer {
     display: flex;
     justify-content: center;
     padding:32px;
+    font-weight: 300;
     
 }
