@@ -4,14 +4,17 @@
     padding: 0px;
 }
 button{
-    padding:6px 30px;
+    padding:4px 30px;
     background-color: #3882F6;
     color: white;
     font-weight: 500;
-    border: none;
     border-radius: 5px;
     font-size: 16px;
+    border: none;
+    width: 120px;
+    height: 30px;
 }
+
 .border-image{
     border: 3px;
     border-color: #3882F6;
@@ -119,17 +122,37 @@ button{
     padding: 5px;
     font-weight: bold;
 }
-.page-fourth-section {
+.color-four {
     display: flex;
     justify-content: center;
+}
+.page-fourth-section {
+    display: flex;
+    justify-content: space-around;
     gap:20px;
     padding:32px;
+    background-color:#3882F6;
+    width: 900px;
+    border-radius: 5px;
 }
 .fourth-section-left {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 
+}
+.second-b {
+    border: 2px;
+    border-style: solid;
+}
+.call-to-action {
+    color:white;
+    font-weight: 400;
+    font-size: 24px;
+}
+.call-para {
+    color:white;
+    font-weight: 300;
 }
 .footer {
     display: flex;
